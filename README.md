@@ -62,18 +62,6 @@ py.offline.iplot(fig)
 
 ![Trend](https://github.com/MyArist/Topic-Modelling-for-Covid-19/blob/master/LDA/tren.png)
 
-## StopWord
-
-Of course I also remove so many stopword inside the tweet
-
-```
-list1 = ['corona', 'coronavirus','indonesia', 'indonesian','covid19', 'covid', 'via',
-         'city', 'names', 'may', 'today', 'new', 'could', 
-         '24', '557', '678', '4', '20', '1520', '25773', '30', '10', '25216', '29', '1', '53', '28',
-         'â€¦', 'â€¢', 'â€™', 'â€“', 'Â«', 'â€', 'Â»', 'â‚¬', 'Â£', 'Â©', 'Â°c', ' Â£', 'å', 'â', 'ë']
-stoplist = stopwords.words('english') + list(punctuation) + list1
-```
-
 ## Clustermap
 
 I make clustermap to see the correlation each of word
